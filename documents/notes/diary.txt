@@ -1,0 +1,30 @@
+This file is just a diary to keep track of our "projekt history".
+
+18.01.24 (robolab):
+-Final Projekt gestartet
+-Gmapping durchgeführt
+-Ziel für Heute: Starten mit den "initialaufgaben"
+wie z.B. mapping, goals speichern, und Projektaufbau erstellen (src, launch files etc.)
+
+25.01.24 (robolab):
+-goals waren nicht genau letztes mal, nochmal speichern
+-Code schreiben das es versucht zu den goals zu fahren
+
+26.01.24 (robolab):
+-Code schreiben das roboter zur eine Koordinate fährt
+-Testen in der arena
+-Test feedback: der Code schafft nach höchstem reward zu sortieren und nach reichenfolge zu den Rewards hinzufahren
+-PROBLEM: eng stellen oder arena wände führen zu errors, obwohl der Roboter noch viel Platz hat...
+
+01.02.24 (robolab):
+-Timer hinzugefügt der Skipt falls man ein goal nicht erreicht
+-Distance berechnung erstellt
+
+13.02.24 (robolab):
+-Timer und distance berechnung getestet angepasst
+
+14.02.24 (robolab):
+-Starthilfe Problem behoben
+-Costmap clear hinzugefügt
+-Helper goals hinzugefügt
+-Deadlock problem behoben, falls Ziel nicht erreicht wird und das näheste Ziel das geliche ist, wird nicht wieder das gleiche Ziel versucht zu erreichen, für eine bestimmte Zeit.

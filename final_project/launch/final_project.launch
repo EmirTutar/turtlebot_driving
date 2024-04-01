@@ -1,0 +1,7 @@
+<launch>
+    <arg name="goals_config_file" default="$(find final_project)/config/goals.yaml"/>
+
+    <node pkg="final_project" type="main.py" name="final_project"  output="screen">
+        <param name="goals_config_file" value="$(arg goals_config_file)" type="str"/>
+    </node>
+</launch>
